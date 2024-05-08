@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+    .main-container {
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        position: absolute;
+        padding: 20px;
+        top: 0;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+
+    .left-container {
+        width: 90%;
+    }
+
+    .upper-text {
+        padding-left: 83px;
+        font-size: 7vw;
+        text-align: center;
+        text-wrap: nowrap;
+    }
+
+    .center {
+        text-align: right;
+        padding: 20px;
+        font-size: 6vw;
+        text-wrap: nowrap;
+    }
+
+    .center span {
+        font-size: 9vw;
+    }
+
+    .bottom {
+        padding-top: 120px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .button {
+        padding: 10px;
+        font-weight: 300;
+        flex-shrink: 0;
+        border: 3px solid #F5AB41;
+        font-size: 12px;
+    }
+
+    .right-container {
+        height: 80vh;
+        width: 100vw;
+        position: relative;
+    }
+
+    .footer {
+        padding: 10px;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+
+    .footer p {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .footer .line {
+        display: none;
+    }
+    .form-container{
+        position: relative;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    .form-container h3{
+        font-size: 6vw;
+    }
+    form input{
+        font-size: 4vw;
+    }
+}
+
